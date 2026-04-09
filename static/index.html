@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мини-анкета</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 24px;
+        max-width: 720px;
+      }
+      label {
+        display: block;
+        margin: 16px 0 8px;
+        font-weight: 600;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 18px;
+        padding: 10px 16px;
+        font-size: 16px;
+      }
+      #message {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #1a7f37;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Мини-анкета</h1>
+    <p>Пожалуйста, ответьте на несколько вопросов.</p>
+    <form id="survey-form"></form>
+    <button id="submit-button" type="button">Отправить</button>
+    <div id="message"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
